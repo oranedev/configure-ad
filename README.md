@@ -24,10 +24,13 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Create a virtual network in Azure.
+- Create a virtual machine in Azure with Windows Server installed.
+- Configure the virtual machine to be a domain controller and install Active Directory Domain Services.
+- Set up a site-to-site VPN connection between the on-premises network and the Azure virtual network.
+- Configure the virtual machine to be a DNS server for the domain.
+- Join on-premises computers to the domain and configure DNS settings to use the virtual machine as their DNS server.
+- Configure group policies to manage on-premises computers from Active Directory.
 
 <h2>Deployment and Configuration Steps</h2>
 
