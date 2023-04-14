@@ -6,9 +6,7 @@
 This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
 
 
-<h2>Video Demonstration</h2>
 
-- ### [YouTube: How to Deploy on-premises Active Directory within Azure Compute](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -46,25 +44,18 @@ Configure Azure Storage: Use Azure Storage to store the VM images, configuration
 
 <h2>Deployment and Configuration Steps</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
 <p>
 Configure Azure Active Directory (AAD): Use Azure Active Directory to manage user accounts and access to Azure resources. Configure the appropriate settings to create user accounts and assign permissions to resources.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
 Automate deployment and configuration with PowerShell: To automate and script the deployment and configuration of the AD domain controllers and other resources in the Azure virtual network, use PowerShell. Create scripts that automate the deployment of the VMs, installation of Active Directory, and configuration of the VPN and other settings.
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
 <p>
 Once all of these steps are completed, you will have set up Active Directory on premises using two virtual machines on Microsoft Azure. Your virtual network will host the AD domain controllers and other domain-joined VMs, with AAD DS providing managed domain services in the cloud. The VPN gateway will allow for replication of the on-premises AD to AAD DS, while Azure Storage and AAD will store and manage data and user accounts respectively. PowerShell will allow for automation and scripting of the deployment and configuration process.
 
