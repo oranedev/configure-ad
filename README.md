@@ -25,7 +25,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 Set up Active Directory on premises using two virtual machines on Microsoft Azure, including the checkpoints you mentioned:
 
 Create an Azure Virtual Network: In the Azure portal, navigate to the Virtual Network page and create a new virtual network. Choose the appropriate region and IP address range for your network, and then create a new subnet for your domain controllers.
-
+<p>
+<img src="https://learn.microsoft.com/en-us/azure/active-directory-domain-services/media/tutorial-create-instance/basics-window.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 Create an Azure Active Directory Domain Services (AAD DS) instance: In the Azure portal, navigate to the AAD DS page and create a new instance. Choose the same region as your virtual network and configure the DNS settings to use your virtual network subnet.
 
 Deploy Windows Server Active Directory: Create two Windows Server virtual machines in your virtual network and install Active Directory Domain Services on them. Configure one VM as the primary domain controller and the other as the secondary domain controller.
